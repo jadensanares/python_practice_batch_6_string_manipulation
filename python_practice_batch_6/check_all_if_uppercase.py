@@ -13,3 +13,7 @@ for character in user_input:
         break
 
 # Print result
+if all_upper:
+    print("All characters of the string are uppercase.")
+else:
+    print("Not all characters of the string are uppercased.")
