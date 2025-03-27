@@ -7,6 +7,10 @@ user_input = input("Enter a string: ")
 lowercase_string = ""
 
 # Make a loop for each character in the string
-
+for character in user_input:
+    if "A" <= character <= "Z":   # Condition to ehck if the character is either lowercase or uppercase
+        lowercase_string += chr(ord(character) + 32)  # Conversion of upper to lowercase
+    else:
+        lowercase_string += character
 
 # Print result
