@@ -7,6 +7,9 @@ user_input = input("Enter a string: ")
 all_upper = True
 
 # Loop for the characters in the string
-
+for character in user_input:
+    if "a" <= character <= "z":
+        all_upper = False
+        break
 
 # Print result
