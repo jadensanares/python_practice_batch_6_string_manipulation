@@ -5,7 +5,7 @@ user_input = input("Enter a string with leading spaces: ")
 
 # Make an index of the first non-space character
 index = 0
-while index < leb(user_input) and user_input[index] == " ":
+while index < len(user_input) and user_input[index] == " ":
     index += 1
 
 # Cut the string from the non-space character
