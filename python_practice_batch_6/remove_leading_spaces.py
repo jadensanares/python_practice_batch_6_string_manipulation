@@ -9,6 +9,7 @@ while index < len(user_input) and user_input[index] == " ":
     index += 1
 
 # Cut the string from the non-space character
-
+removed_string = user_input[index]
 
 # print result
+print("Removed leading space string:", removed_string)
