@@ -14,3 +14,4 @@ else:
     cut_string = user_input
 
 # Print Result
+print("String after cutting out the prefix:", cut_string)
