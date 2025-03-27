@@ -14,3 +14,4 @@ for character in user_input:
         lowercase_string += character
 
 # Print result
+print("Lowercase:", lowercase_string)
