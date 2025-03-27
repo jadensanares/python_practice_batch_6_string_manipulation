@@ -10,6 +10,9 @@ ending_substring = input("Enter the ending substring: ")
 end_length = len(ending_substring)
 
 # Taking the final segment of the main string that is the same length as the ending substring
-
+if len(main_string) >= end_length:
+    taken_end = main_string[-end_length]
+else:
+    taken_end = ""
 
 # Comparison of the final segment with the ending substring and print result
