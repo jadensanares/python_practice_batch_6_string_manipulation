@@ -16,3 +16,7 @@ else:
     taken_end = ""
 
 # Comparison of the final segment with the ending substring and print result
+if taken_end == ending_substring:
+    print("The string is ending with the given substring.")
+else:
+    print("The string is not ending with the given substring.")
