@@ -7,7 +7,7 @@ input_string = input("Enter the string: ")
 words = input_string.split()
 
 # checking conditions of the word
-added_word = []
+added_words = []
 for word in words:
     if word:
         added_word = word[0].upper() + word[1:].lower()
