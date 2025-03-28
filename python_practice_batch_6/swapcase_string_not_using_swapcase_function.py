@@ -14,3 +14,4 @@ for character in input_string:
         swapcase_string += character
 
 # print result
+print("Swapped case of the input is:", swapcase_string)
