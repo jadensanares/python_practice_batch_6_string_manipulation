@@ -7,6 +7,16 @@ input_string = input("Enter the string: ")
 words = input_string.split()
 
 # checking conditions of the word
+added_word = []
+for word in words:
+    if word:
+        added_word = word[0].upper() + word[1:].lower()
+    else:
+        added_word = ""
 
+    added_words.append(added_word)
+
+titled_string = " ".join(added_words)
 
 # print result
+print("Titled string:", titled_string)
