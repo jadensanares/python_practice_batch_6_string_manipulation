@@ -10,3 +10,4 @@ else:
     capitalized_string = ""
 
 # print result
+print("Capitalized first letter of the string:", capitalized_string)
