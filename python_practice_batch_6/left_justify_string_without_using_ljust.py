@@ -7,6 +7,7 @@ text_string = input("Enter the string: ")
 total_width = int(input("Enter the total width: "))
 
 # condition for adding of spaces
-
+spaced_string = text_string + " " * max(0, total_width - len(text_string))
 
 # print result
+print(f"Spaced string: '{spaced_string}'")
