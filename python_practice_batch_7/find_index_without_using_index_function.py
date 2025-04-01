@@ -8,7 +8,10 @@ substring = input("Enter the substring you want to find in the string: ")
 index_of_substring = -1
 
 # start the loop for finding the first occurence of said substring
-
+for i in range(len(string_input) - len(substring) + 1):
+    if string_input[i:i + len(substring)] == substring:
+        found_index = i
+        break 
 
 # print result
 
