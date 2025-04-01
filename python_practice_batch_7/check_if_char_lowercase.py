@@ -11,3 +11,7 @@ for character in string_input:
         all_char_lowercase = False
 
 # print the result
+if all_char_lowercase:
+    print("All characters in the string are in lowercase.")
+else:
+    print("Not all characters in the string are in lowercase.")
