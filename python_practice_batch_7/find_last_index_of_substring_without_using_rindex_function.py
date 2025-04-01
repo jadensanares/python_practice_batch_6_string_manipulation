@@ -8,6 +8,9 @@ substring = input("Enter the subtring you want to find from the last position: "
 index_of_substring = -1
 
 # loop string but in reverse 
-
+for i in range(len(string_input) - len(substring), -1, -1):
+    if string_input[i:i + len(substring)] == substring:
+        index_of_substring = i
+        break
 
 # print result
