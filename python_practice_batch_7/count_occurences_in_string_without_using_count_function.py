@@ -7,7 +7,9 @@ substring = input("Enter the substring for the count: ")
 # start a counter for the occurences
 count = 0
 
-# make the loop for the string
-
+# make the loop for the string in able to check if the substring match with it
+for i in range(len(string_input) - len(substring) + 1):
+    if string_input[i:i + len(substring)] == substring:
+        count += 1
 
 # print result
