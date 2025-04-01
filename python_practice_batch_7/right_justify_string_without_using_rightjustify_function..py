@@ -11,3 +11,4 @@ input_spaces = max(0, width - len(string_input))
 right_justified_string = " " * input_spaces + string_input
 
 # print result
+print(f"The right justified strings is: '{right_justified_string}'")
