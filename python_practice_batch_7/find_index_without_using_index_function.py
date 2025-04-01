@@ -11,7 +11,7 @@ index_of_substring = -1
 for i in range(len(string_input) - len(substring) + 1):
     if string_input[i:i + len(substring)] == substring:
         index_of_substring = i
-        break 
+        break     # to stop the loop if occurence is found
 
 # print result
 if index_of_substring != -1:
