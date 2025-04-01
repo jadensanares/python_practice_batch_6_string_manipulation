@@ -5,9 +5,9 @@ string_input = input("Enter the string: ")
 width = int(input("Enter the width: "))
 
 # spaces needed for the letters to go to the right
-
-
+input_spaces = max(0, width - len(string_input))
+  
 # defining the right justified string
-
+right_justified_string = " " * input_spaces + string_input
 
 # print result
