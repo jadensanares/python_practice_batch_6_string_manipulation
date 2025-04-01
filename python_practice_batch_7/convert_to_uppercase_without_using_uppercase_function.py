@@ -12,3 +12,4 @@ for character in string_input:
         uppercase_string += character
 
 # Print result
+print("Uppercase string version:", uppercase_string)
