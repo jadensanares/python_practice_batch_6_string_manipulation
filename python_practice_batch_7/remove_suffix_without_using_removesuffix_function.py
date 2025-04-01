@@ -11,3 +11,4 @@ else:
     trimmed_string = string_input
 
 # print result
+print("Removed suffix string:", trimmed_string)
