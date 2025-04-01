@@ -14,3 +14,7 @@ for i in range(len(string_input) - len(substring), -1, -1):
         break
 
 # print result
+if index_of_substring != -1:
+    print("The last occurence of the substring is at index:", index_of_substring)
+else:
+    print("There are no substring found")
