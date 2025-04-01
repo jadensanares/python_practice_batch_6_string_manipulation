@@ -2,7 +2,7 @@
 
 # prompt user for input of string and substring
 string_input = input("Enter the string: ")
-substring = input("Enter the subtring you want to find from the last position: ")
+substring = input("Enter the substring you want to find from the last position: ")
 
 # start the index variable
 index_of_substring = -1
@@ -15,6 +15,6 @@ for i in range(len(string_input) - len(substring), -1, -1):
 
 # print result
 if index_of_substring != -1:
-    print("The last occurence of the substring is at index:", index_of_substring)
+    print("The last occurrence of the substring is at index:", index_of_substring)
 else:
-    print("There are no substring found")
+    print("The substring was not found")
