@@ -9,7 +9,7 @@ while last_char_index >= 0 and string_input[last_char_index] == " ":
     last_char_index -= 1
 
 # Trimming the string 
-trimmed_string = string_input[last_char_index + 1]
+trimmed_string = string_input[:last_char_index + 1]
 
 # print result
 print(f"Trimmed string: '{trimmed_string}'")
